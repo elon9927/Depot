@@ -1,0 +1,7 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+<%= render @cart %>
+<!-- 等效于下面的写法，第一个cart指文件名，第二个是参数名 
+<%= render partial: 'cart', locals: {cart: @cart} %>
+-->
